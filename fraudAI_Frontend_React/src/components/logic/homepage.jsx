@@ -5139,7 +5139,7 @@ import {
           console.log("Features sent to Flask:", features); // For debugging
       
           // Send the features to the Flask server
-          const response = await fetch("https://jubilant-umbrella-9pq54p5j44gc96v-5000.app.github.dev/predict", {
+          const response = await fetch("https://frauddetectionusinggan.onrender.com/predict", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",

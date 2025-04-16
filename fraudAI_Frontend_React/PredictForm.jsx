@@ -37,7 +37,7 @@ const PredictForm = () => {
 
   const handlePredict = async () => {
     try {
-      const response = await axios.post("https://jubilant-umbrella-9pq54p5j44gc96v-5000.app.github.dev/predict", {
+      const response = await axios.post("https://frauddetectionusinggan.onrender.com/predict", {
         features: features,
       });
       setPrediction(response.data.prediction);
